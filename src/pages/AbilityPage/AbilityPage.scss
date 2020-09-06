@@ -1,0 +1,19 @@
+.ability-page {
+  .navigate-back {
+    text-decoration: none;
+    margin: 10px 0;
+  }
+  .ability-info {
+    padding: 10px;
+    margin: -4px;
+    border: 4px solid #eee;
+    .ability-name {
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .effects {
+      margin-bottom: 10px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.pokemons-library {
+  h1 {
+    font-weight: 300;
+  }
+  .pokemons-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .card-wrapper {
+      cursor: pointer;
+    }
+  }
+}

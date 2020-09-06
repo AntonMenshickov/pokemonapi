@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Recursive', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  max-width: 1024px;
+  margin: 0 auto;
+  @media screen and (max-width: 1024px){
+      width: calc(100vw - 30px);
+  }
+}
