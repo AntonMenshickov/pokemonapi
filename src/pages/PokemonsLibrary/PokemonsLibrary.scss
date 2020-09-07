@@ -1,6 +1,17 @@
 .pokemons-library {
-  h1 {
-    font-weight: 300;
+  .page-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    h1 {
+      font-weight: 300;
+    }
+    input {
+      padding: 4px 8px;
+      border: 2px solid #eee;
+    }
   }
   .pokemons-list {
     display: flex;

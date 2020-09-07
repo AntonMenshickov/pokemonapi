@@ -6,6 +6,7 @@ export const Actions = {
   POKEMON_LOADED: 'POKEMON_LOADED',
   LOAD_ABILITY_REQUEST: 'LOAD_ABILITY_REQUEST',
   ABILITY_LOADED: 'ABILITY_LOADED',
+  FILTER_POKEMONS: 'FILTER_POKEMONS',
 };
 
 export const loadPokemons = () => ({
@@ -40,4 +41,9 @@ export const abilityLoadRequest = (name) => ({
 export const abilityLoaded = (ability) => ({
   type: Actions.ABILITY_LOADED,
   ability
+})
+
+export const filterPokemons = (name) => ({
+  type: Actions.FILTER_POKEMONS,
+  name
 })
